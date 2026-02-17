@@ -10,7 +10,8 @@ const sections = [
 ];
 
 const content = document.getElementById("content");
-const languageSwitcher = document.getElementById("languageSwitcher");
+// Use the correct id for the language selector
+let languageSwitcher;
 
 let translations = {}; // Will hold loaded translations
 
@@ -46,18 +47,19 @@ async function loadSections() {
         content.innerHTML += html;
     }
 
-    // After sections loaded, apply translation
-    const savedLang = localStorage.getItem("lang") || "en";
-    languageSwitcher.value = savedLang;
-    await loadTranslations(savedLang);
+    // After sections loaded, get the language selector
+    languageSwitcher = document.getElementById("language-selector");
+    if (languageSwitcher) {
+        const savedLang = localStorage.getItem("lang") || "en";
+        languageSwitcher.value = savedLang;
+        languageSwitcher.addEventListener("change", async (e) => {
+            const lang = e.target.value;
+            localStorage.setItem("lang", lang); // Remember choice
+            await loadTranslations(lang);
+        });
+        await loadTranslations(languageSwitcher.value);
+    }
 }
-
-// --- Language switcher event ---
-languageSwitcher.addEventListener("change", async (e) => {
-    const lang = e.target.value;
-    localStorage.setItem("lang", lang); // Remember choice
-    await loadTranslations(lang);
-});
 
 // --- Initialize ---
 loadSections();
