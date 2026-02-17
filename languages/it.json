@@ -1,0 +1,62 @@
+{
+    "it": {
+        "nav": {
+            "about": "Chi Sono",
+            "parcours": "Percorso",
+            "projects": "Progetti",
+            "contact": "Contatti"
+        },
+        "hero": {
+            "heroTitle": "Benvenuto nel mio Portfolio",
+            "heroSubtitle": "Ingegniera DevOps"
+        },
+        "about" : {
+            "aboutTitle": "Chi Sono",
+            "aboutText": "Sono un'ingegniera DevOps appassionata di programmazione."
+        },
+        "skills": {
+            "skillsTitle": "Le Mie Competenze",
+            "skillsList": [
+                "Cloud Infrastructure (AWS, Azure, GCP)",
+                "CI/CD Pipelines (Jenkins, GitLab CI, GitHub Actions)",
+                "Containerization (Docker, Kubernetes)",
+                "Infrastructure as Code (Terraform, Ansible)",
+                "Monitoring & Logging (Prometheus, Grafana, ELK Stack)"
+            ]
+        },
+        "parcours": {
+            "parcoursTitle": "Percorso Professionale",
+            "parcours2024": "2024 - Ingegniera DevOps",
+            "parcours2024Company": "Nome Azienda",
+            "parcours2024Description": "Infrastructure cloud, pipeline CI/CD, gestione Kubernetes.",
+            "parcours2022": "2022 - Master in Informatica",
+            "parcours2022University": "Nome Università",
+            "parcours2022Description": "Specializzata in Cloud Computing e Sistemi Distribuiti.",
+            "parcours2019": "2019 - Laurea Triennale",
+            "parcours2019University": "Nome Università"
+        },
+        "project" : {
+            "projectsTitle": "I Miei Progetti",
+            "projectsList": [
+                {
+                    "name": "Progetto Uno",
+                    "description": "Un'applicazione web per la gestione delle attività, costruita con React e Node.js."
+                },
+                {
+                    "name": "Progetto Due",
+                    "description": "Configurazione di un pipeline CI/CD utilizzando Jenkins e Docker per un'architettura di microservizi."
+                },
+                {
+                    "name": "Progetto Tre",
+                    "description": "Implementazione di Infrastructure as Code utilizzando Terraform per le risorse AWS."
+                }
+            ]
+        },
+        "contact": {
+            "contactTitle": "Contattami"
+        },
+        "footer": {
+            "footerText": "© 2026 De Martino Giada Flora. Tutti i diritti riservati."
+        }
+    }
+}

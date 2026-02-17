@@ -1,0 +1,62 @@
+{
+    "en": {
+        "nav": {
+            "about": "About",
+            "parcours": "Parcours",
+            "projects": "Projects",
+            "contact": "Contact"
+        },
+        "hero": {
+            "heroTitle": "Welcome to my Portfolio",
+            "heroSubtitle": "DevOps Engineer"
+        },
+        "about" : {
+            "aboutTitle": "About Me",
+            "aboutText": "I am a DevOps engineer passionate about coding."
+        },
+        "skills": {
+            "skillsTitle": "My Skills",
+            "skillsList": [
+                "Cloud Infrastructure (AWS, Azure, GCP)",
+                "CI/CD Pipelines (Jenkins, GitLab CI, GitHub Actions)",
+                "Containerization (Docker, Kubernetes)",
+                "Infrastructure as Code (Terraform, Ansible)",
+                "Monitoring & Logging (Prometheus, Grafana, ELK Stack)"
+            ]
+        },
+        "parcours": {
+            "parcoursTitle": "Professional Journey",
+            "parcours2024": "2024 - DevOps Engineer",
+            "parcours2024Company": " Company Name",
+            "parcours2024Description": "Cloud infrastructure, CI/CD pipelines, Kubernetes management.",
+            "parcours2022": "2022 - Master Degree in Computer Science",
+            "parcours2022University": "University Name",
+            "parcours2022Description": "Specialized in Cloud Computing & Distributed Systems.",
+            "parcours2019": "2019 - Bachelor Degree",
+            "parcours2019University": "University Name"
+        },
+        "project" : {
+            "projectsTitle": "My Projects",
+            "projectsList": [
+                {
+                    "name": "Project One",
+                    "description": "A web application for managing tasks, built with React and Node.js."
+                },
+                {
+                    "name": "Project Two",
+                    "description": "A CI/CD pipeline setup using Jenkins and Docker for a microservices architecture."
+                },
+                {
+                    "name": "Project Three",
+                    "description": "Infrastructure as Code implementation using Terraform for AWS resources."
+                }
+            ]
+        },
+        "contact": {
+            "contactTitle": "Contact Me"
+        },
+        "footer": {
+            "footerText": "© 2026 De Martino Giada Flora. All rights reserved."
+        }
+    }
+}
