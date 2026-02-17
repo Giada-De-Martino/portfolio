@@ -9,15 +9,14 @@ const sections = [
 ];
 
 const content = document.getElementById("content");
-let languageSwitcher;
+const languageSwitcher = document.getElementById("language-selector");
 let translations = {};
 
 // --- Load translation file dynamically ---
 async function loadTranslations(lang) {
     try {
-        const response = await fetch(`translations/${lang}.json`);
+        const response = await fetch(`languages/${lang}.json`);
         const data = await response.json();
-        // If your JSON has nested language keys like {"fr": {...}}, extract it
         translations = data[lang] || data;
         switchLanguage(lang); // Apply translation after loading
     } catch (error) {
@@ -43,19 +42,17 @@ async function loadSections() {
         const html = await response.text();
         content.innerHTML += html;
     }
-
-    // After sections loaded, get the language selector
-    languageSwitcher = document.getElementById("language-selector");
-    if (languageSwitcher) {
-        const savedLang = localStorage.getItem("lang") || "en";
-        languageSwitcher.value = savedLang;
-        languageSwitcher.addEventListener("change", async (e) => {
-            const lang = e.target.value;
-            localStorage.setItem("lang", lang); // Remember choice
-            await loadTranslations(lang);
-        });
-        await loadTranslations(languageSwitcher.value);
-    }
 }
 
+// --- Initialize language switcher ---
+const savedLang = localStorage.getItem("lang") || "en";
+languageSwitcher.value = savedLang;
+languageSwitcher.addEventListener("change", async (e) => {
+    const lang = e.target.value;
+    localStorage.setItem("lang", lang); // Remember choice
+    await loadTranslations(lang);
+});
+
+// Load initial language and sections
+loadTranslations(savedLang);
 loadSections();
