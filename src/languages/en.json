@@ -4,7 +4,8 @@
             "about": "About",
             "parcours": "Parcours",
             "projects": "Projects",
-            "contact": "Contact"
+            "contact": "Contact",
+            "resume": "Resume"
         },
         "hero": {
             "heroTitle": "Welcome to my Portfolio",

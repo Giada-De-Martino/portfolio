@@ -1,0 +1,40 @@
+<div id="contact" class="flex items-center justify-center w-screen min-h-screen p-6">
+  <div class="rounded-xl p-8 shadow-xl w-full max-w-2xl">
+    
+    <!-- Form Title -->
+    <h2 class="text-3xl font-bold mb-6" data-i18n="contact.contactTitle">
+      Contact Me
+    </h2>
+
+    <!-- Form -->
+    <form class="flex flex-col gap-4">
+      <input 
+        type="text" 
+        placeholder="Your Name" 
+        required 
+        class="border border-primary-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:border-primary-500"
+      >
+      
+      <input 
+        type="email" 
+        placeholder="Your Email" 
+        required
+        class="border border-primary-300 rounded-md p-3 focus:outline-none focus:ring-2 focus:border-primary-500"
+      >
+      
+      <textarea 
+        placeholder="Your Message" 
+        required
+        class="border border-primary-300 rounded-md p-3 h-32 resize-none focus:outline-none focus:ring-2 focus:border-primary-500"
+      ></textarea>
+      
+      <button 
+        type="submit"
+        class="bg-primary-600 text-white font-semibold rounded-md p-3 hover:bg-primary-700 transition-colors"
+      >
+        Send
+      </button>
+    </form>
+
+  </div>
+</div>

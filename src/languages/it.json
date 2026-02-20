@@ -4,15 +4,16 @@
             "about": "Chi Sono",
             "parcours": "Percorso",
             "projects": "Progetti",
-            "contact": "Contatti"
+            "contact": "Contatti",
+            "resume": "Curriculum"
         },
         "hero": {
-            "heroTitle": "Benvenuto nel mio Portfolio",
+            "heroTitle": "Benvenuti nel mio Portfolio",
             "heroSubtitle": "Ingegniera DevOps"
         },
         "about" : {
             "aboutTitle": "Chi Sono",
-            "aboutText": "Sono un'ingegniera DevOps appassionata di programmazione."
+            "aboutText": "Ingegniera DevOps appassionata di infrastrutture cloud, automazione e CI/CD. Adoro risolvere problemi complessi e ottimizzare i processi di sviluppo software."
         },
         "skills": {
             "skillsTitle": "Le Mie Competenze",
@@ -53,7 +54,7 @@
             ]
         },
         "contact": {
-            "contactTitle": "Contattami"
+            "contactTitle": "Contattatemi"
         },
         "footer": {
             "footerText": "© 2026 De Martino Giada Flora. Tutti i diritti riservati."

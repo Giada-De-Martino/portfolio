@@ -1,37 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Giada Flora De Martino | Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-</head>
+<!doctype html>
+<html lang="en" class="scroll-smooth scroll-pt-16">
+  <head>
+    <meta charset="UTF-8" />
+    <title>De Martino | Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./src/output.css" />
+  </head>
 
-<header>
-    <nav>
-        <h1>Portfolio</h1>
-        <ul>
-            <li><a href="#about" data-i18n="nav.about">About</a></li>
-            <li><a href="#parcours" data-i18n="nav.parcours">Parcours</a></li>
-            <li><a href="#projects" data-i18n="nav.projects">Projects</a></li>
-            <li><a href="#contact" data-i18n="nav.contact">Contact</a></li>
+  <body>
+    <header class="bg-primary-700 fixed w-full shadow p-6">
+      <nav class="w-full flex items-center">
+        <!-- Logo -->
+        <a href="#" 
+          onclick="window.scrollTo({ top: 0, behavior: 'smooth' }); return false;"
+          class="text-white text-4xl font-bold">
+          Portfolio
+        </a>
+
+        <!-- Navigation Links -->
+        <ul
+          class="hidden md:flex gap-8 w-full justify-end mx-6"
+          style="list-style: none"
+        >
+          <li><a href="#about" class="hover:underline text-white">About</a></li>
+          <li><a href="#skills" class="hover:underline text-white">Skills</a></li>
+          <li><a href="#parcours" class="hover:underline text-white">Parcours</a></li>
+          <li><a href="#projects" class="hover:underline text-white">Projects</a></li>
+          <li><a href="#contact" class="hover:underline text-white">Contact</a></li>
         </ul>
-        <select id="language-selector" onchange="changeLanguage()">
-            <option value="en">English</option>
-            <option value="fr">Français</option>
-            <option value="it">Italiano</option>
+
+        <!-- Download Button -->
+        <a
+          id="cv"
+          href="./content/resume-de-martino-giada.pdf"
+          download
+          data-i18n="nav.resume"
+          class="w-45 h-12 flex items-center justify-center"
+        >
+          Resume
+        </a>
+
+        <!-- Language Selector -->
+        <select
+          id="language-selector"
+          onchange="changeLanguage()"
+          class="bg-black border border-white text-white rounded mx-6 text-sm p-1"
+        >
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <option value="it">Italiano</option>
         </select>
-    </nav>
-</header>
+      </nav>
+    </header>
 
-<body>
+    <!-- Main Content -->
+    <main id="content"></main>
 
-<main id="content"></main>
+    <!-- Footer -->
+    <footer class="border-t mt-auto">
+      <div class="max-w-6xl mx-auto px-6 py-6 text-center text-sm">
+        <p>© 2026 De Martino Giada Flora. All rights reserved.</p>
+      </div>
+    </footer>
 
-<footer>
-    <p>© 2026 De Martino Giada Flora. All rights reserved.</p>
-</footer>
-
-<script src="script.js"></script>
-</body>
+    <script src="src/script.js"></script>
+  </body>
 </html>

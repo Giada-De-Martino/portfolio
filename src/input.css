@@ -1,0 +1,83 @@
+@import "tailwindcss";
+
+@theme {
+    --color-primary-50:  #ecfdf5;
+    --color-primary-100: #d1fae5;
+    --color-primary-200: #a7f3d0;
+    --color-primary-300: #6ee7b7;
+    --color-primary-400: #34d399;
+    --color-primary-500: #10b981;
+    --color-primary-600: #059669;
+    --color-primary-700: #047857;
+    --color-primary-800: #065f46;
+    --color-primary-900: #064e3b;
+
+    --font-body: "Inter", sans-serif;
+    --font-heading: "Poppins", sans-serif;
+}
+
+@layer base {
+    body {
+        @apply bg-primary-50 text-primary-800;
+        font-family: var(--font-body);
+    }
+
+    h1 {
+        @apply text-4xl font-bold text-primary-700;
+        font-family: var(--font-heading);
+    }
+
+    h2 {
+        @apply text-3xl font-semibold text-primary-600;
+        font-family: var(--font-heading);
+    }
+
+    h3 {
+        @apply text-2xl font-medium text-primary-500;
+        font-family: var(--font-heading);
+    }
+
+    header a {
+        @apply text-primary-500 transition-colors duration-300;
+    }
+
+    ul {
+        @apply list-disc list-inside;
+    }
+
+    /* Hide scrollbar */
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+
+    .no-scrollbar {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;     /* Firefox */
+    }
+
+    #cv {
+        @apply bg-primary-500 text-white px-4 py-2 rounded-full hover:bg-primary-600 transition-colors duration-300;
+    }
+
+    #hero {
+        background-image: url('./images/forest1.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    #skills {
+        background-image: url('./images/hobbit2.jpeg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    #projects {
+        background-image: url('./images/hobbit3.jpg');
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+}

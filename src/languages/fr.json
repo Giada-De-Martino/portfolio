@@ -4,7 +4,8 @@
             "about": "À propos",
             "parcours": "Parcours",
             "projects": "Projets",
-            "contact": "Contact"
+            "contact": "Contact",
+            "resume": "CV"
         },
         "hero": {
             "heroTitle": "Bienvenue sur mon Portfolio",
@@ -12,7 +13,7 @@
         },
         "about" : {
             "aboutTitle": "À propos de moi",
-            "aboutText": "Je suis une ingénieure DevOps passionnée par le code."
+            "aboutText": "Ingénieure DevOps passionnée par les infrastructures cloud, l'automatisation et les pipelines CI/CD. J'aime résoudre des problèmes complexes et optimiser les processus de développement logiciel."
         },
         "skills": {
             "skillsTitle": "Mes Compétences",
@@ -39,15 +40,15 @@
             "projectsTitle": "Mes Projets",
             "projectsList": [
                 {
-                    "name": "Project Un",
+                    "name": "Projet Un",
                     "description": "Une application web pour gérer les tâches, construite avec React et Node.js."
                 },
                 {
-                    "name": "Project Deux",
+                    "name": "Projet Deux",
                     "description": "Configuration d'un pipeline CI/CD utilisant Jenkins et Docker pour une architecture de microservices."
                 },
                 {
-                    "name": "Project Trois",
+                    "name": "Projet Trois",
                     "description": "Implémentation d'Infrastructure as Code utilisant Terraform pour les ressources AWS."
                 }
             ]
