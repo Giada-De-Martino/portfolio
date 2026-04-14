@@ -45,34 +45,21 @@ function switchLanguage(lang) {
   });
 
   // Update footer text if present in translations
-  const footerText = (function () {
-    const v = (function () {
-      return translations &&
-        translations.footer &&
-        translations.footer.footerText
-        ? translations.footer.footerText
-        : null;
-    })();
-    return v;
-  })();
-  if (footerText) {
-    const p = document.querySelector("footer p");
-    if (p) p.textContent = footerText;
+  if (translations.footer?.footerText) {
+    const footerP = document.querySelector("footer p");
+    if (footerP) footerP.textContent = translations.footer.footerText;
   }
 }
 
 // Expose a global function for the inline onchange handler in index.html
 window.changeLanguage = async function () {
-  const sel = document.getElementById("language-selector");
-  if (!sel) return;
-  const lang = sel.value;
+  const lang = document.getElementById("language-selector").value;
   localStorage.setItem("lang", lang);
   await loadTranslations(lang);
 };
 
 // --- Load sections dynamically ---
 async function loadSections() {
-  content.innerHTML = ""; // Clear content first
   for (const section of sections) {
     const response = await fetch(section);
     const html = await response.text();
@@ -82,13 +69,7 @@ async function loadSections() {
 
 // --- Initialize language switcher ---
 const savedLang = localStorage.getItem("lang") || "en";
-if (languageSwitcher) languageSwitcher.value = savedLang;
-if (languageSwitcher)
-  languageSwitcher.addEventListener("change", async (e) => {
-    const lang = e.target.value;
-    localStorage.setItem("lang", lang); // Remember choice
-    await loadTranslations(lang);
-  });
+languageSwitcher.value = savedLang;
 
 // Load sections first so elements with data-i18n exist, then load translations
 loadSections().then(() => loadTranslations(savedLang));

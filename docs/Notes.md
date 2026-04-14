@@ -1,19 +1,6 @@
-### Things I did : 
+## My personal portfolio
 
-* Selected a project : StoryBook
- 
-* Participated in the community Discord
-
-* Found a bug and reported it :
-BUG url : https://github.com/storybookjs/storybook/issues/33856
-
-* Took the issue 
-ISSUE url : https://github.com/storybookjs/storybook/issues/33856 
-
-* Made a PR :
-PR url : https://github.com/storybookjs/storybook/pull/33858
-
-### FOR THE PORTFOLIO :
+### FOR THE CSS :
 to load the css run this :
 
 ```bash

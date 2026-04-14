@@ -9,11 +9,12 @@
         },
         "hero": {
             "heroTitle": "Benvenuti nel mio Portfolio",
-            "heroSubtitle": "Ingegniera DevOps"
+            "heroSubtitle": "Ingegnera DevOps",
+            "heroName": "Ciao, sono Giada Flora De Martino !"
         },
         "about" : {
             "aboutTitle": "Chi Sono",
-            "aboutText": "Ingegniera DevOps appassionata di infrastrutture cloud, automazione e CI/CD. Adoro risolvere problemi complessi e ottimizzare i processi di sviluppo software."
+            "aboutText": "Ingegnera DevOps appassionata di infrastrutture cloud, automazione e CI/CD. Adoro risolvere problemi complessi e ottimizzare i processi di sviluppo software."
         },
         "skills": {
             "skillsTitle": "Le Mie Competenze",
@@ -27,7 +28,7 @@
         },
         "parcours": {
             "parcoursTitle": "Percorso Professionale",
-            "parcours2024": "2024 - Ingegniera DevOps",
+            "parcours2024": "2024 - Ingegnera DevOps",
             "parcours2024Company": "Nome Azienda",
             "parcours2024Description": "Infrastructure cloud, pipeline CI/CD, gestione Kubernetes.",
             "parcours2022": "2022 - Master in Informatica",
@@ -36,20 +37,16 @@
             "parcours2019": "2019 - Laurea Triennale",
             "parcours2019University": "Nome Università"
         },
-        "project" : {
+        "project": {
             "projectsTitle": "I Miei Progetti",
             "projectsList": [
                 {
-                    "name": "Progetto Uno",
-                    "description": "Un'applicazione web per la gestione delle attività, costruita con React e Node.js."
+                    "name": "Piattaforma di Automazione CI/CD",
+                    "description": "Sistema di deployment automatizzato utilizzando GitHub Actions e Docker."
                 },
                 {
-                    "name": "Progetto Due",
-                    "description": "Configurazione di un pipeline CI/CD utilizzando Jenkins e Docker per un'architettura di microservizi."
-                },
-                {
-                    "name": "Progetto Tre",
-                    "description": "Implementazione di Infrastructure as Code utilizzando Terraform per le risorse AWS."
+                    "name": "Strumento di Monitoraggio Kubernetes",
+                    "description": "Soluzione di monitoraggio utilizzando Prometheus e Grafana."
                 }
             ]
         },

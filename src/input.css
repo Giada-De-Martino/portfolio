@@ -45,16 +45,6 @@
         @apply list-disc list-inside;
     }
 
-    /* Hide scrollbar */
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
-
-    .no-scrollbar {
-        -ms-overflow-style: none;  /* IE and Edge */
-        scrollbar-width: none;     /* Firefox */
-    }
-
     #cv {
         @apply bg-primary-500 text-white px-4 py-2 rounded-full hover:bg-primary-600 transition-colors duration-300;
     }

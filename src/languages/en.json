@@ -9,7 +9,8 @@
         },
         "hero": {
             "heroTitle": "Welcome to my Portfolio",
-            "heroSubtitle": "DevOps Engineer"
+            "heroSubtitle": "DevOps Engineer",
+            "heroName": "Hi, I'm Giada Flora De Martino !"
         },
         "about" : {
             "aboutTitle": "About Me",
@@ -36,20 +37,16 @@
             "parcours2019": "2019 - Bachelor Degree",
             "parcours2019University": "University Name"
         },
-        "project" : {
+        "project": {
             "projectsTitle": "My Projects",
             "projectsList": [
                 {
-                    "name": "Project One",
-                    "description": "A web application for managing tasks, built with React and Node.js."
+                    "name": "CI/CD Automation Platform",
+                    "description": "Automated deployment system using GitHub Actions & Docker."
                 },
                 {
-                    "name": "Project Two",
-                    "description": "A CI/CD pipeline setup using Jenkins and Docker for a microservices architecture."
-                },
-                {
-                    "name": "Project Three",
-                    "description": "Infrastructure as Code implementation using Terraform for AWS resources."
+                    "name": "Kubernetes Monitoring Tool",
+                    "description": "Monitoring solution using Prometheus and Grafana."
                 }
             ]
         },
