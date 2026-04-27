@@ -8,9 +8,15 @@
       "resume": "CV"
     },
     "hero": {
+      "heroIntro": "Bonjour,",
       "heroTitle": "Bienvenue sur mon Portfolio",
+      "heroName": "Je suis",
+      "firstName": "Giada Flora",
+      "lastName": "De Martino",
       "heroSubtitle": "Ingénieure DevOps",
-      "heroName": "Bonjour, je suis Giada Flora De Martino !"
+      "heroDescription": "Je conçois des infrastructures cloud, j'automatise les pipelines de livraison et j'aide les équipes à livrer des logiciels fiables plus rapidement.",
+      "ctaProjects": "Voir mes projets",
+      "ctaContact": "Me contacter"
     },
     "about": {
       "aboutTitle": "À propos de moi",
