@@ -52,12 +52,6 @@ function switchLanguage(lang) {
       el.placeholder = value;
     }
   });
-
-  // Update footer text if present in translations
-  if (translations.footer?.footerText) {
-    const footerP = document.querySelector("footer p");
-    if (footerP) footerP.textContent = translations.footer.footerText;
-  }
 }
 
 // Expose a global function for the inline onchange handler in index.html
