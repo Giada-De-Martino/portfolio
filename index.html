@@ -11,8 +11,7 @@
     <header class="bg-primary-700 fixed top-0 left-0 w-full shadow p-6 z-50">
       <nav class="w-full flex items-center">
         <!-- Logo -->
-        <a href="#hero" 
-          class="text-white text-4xl font-bold whitespace-nowrap">
+        <a href="#hero" class="text-white text-4xl font-bold whitespace-nowrap">
           De Martino
         </a>
 
@@ -21,11 +20,34 @@
           class="hidden md:flex gap-8 w-full justify-end mx-6"
           style="list-style: none"
         >
-          <li><a href="#about" class="hover:underline text-white">About</a></li>
-          <li><a href="#skills" class="hover:underline text-white">Skills</a></li>
-          <li><a href="#parcours" class="hover:underline text-white">Parcours</a></li>
-          <li><a href="#projects" class="hover:underline text-white">Projects</a></li>
-          <li><a href="#contact" class="hover:underline text-white">Contact</a></li>
+          <li>
+            <a
+              href="#about"
+              class="hover:underline text-white"
+              data-i18n="nav.about"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#parcours"
+              class="hover:underline text-white"
+              data-i18n="nav.parcours"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#projects"
+              class="hover:underline text-white"
+              data-i18n="nav.projects"
+            ></a>
+          </li>
+          <li>
+            <a
+              href="#contact"
+              class="hover:underline text-white"
+              data-i18n="nav.contact"
+            ></a>
+          </li>
         </ul>
 
         <!-- Download Button -->
@@ -36,7 +58,6 @@
           data-i18n="nav.resume"
           class="w-45 h-12 flex items-center justify-center"
         >
-          Resume
           <icon name="download" class="ml-2 text-white"></icon>
         </a>
 
@@ -59,7 +80,7 @@
     <!-- Footer -->
     <footer class="border-t mt-auto">
       <div class="max-w-6xl mx-auto px-6 py-6 text-center text-sm">
-        <p>© 2026 De Martino Giada Flora. All rights reserved.</p>
+        <p data-i18n="footer.footerText"></p>
       </div>
     </footer>
 

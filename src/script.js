@@ -44,6 +44,15 @@ function switchLanguage(lang) {
     }
   });
 
+  // Handle placeholders
+  document.querySelectorAll("[data-i18n-placeholder]").forEach((el) => {
+    const key = el.getAttribute("data-i18n-placeholder");
+    const value = getNested(translations, key);
+    if (value !== null) {
+      el.placeholder = value;
+    }
+  });
+
   // Update footer text if present in translations
   if (translations.footer?.footerText) {
     const footerP = document.querySelector("footer p");

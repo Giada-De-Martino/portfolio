@@ -532,9 +532,6 @@
   .whitespace-nowrap {
     white-space: nowrap;
   }
-  .text-gray-300 {
-    color: var(--color-gray-300);
-  }
   .text-white {
     color: var(--color-white);
   }

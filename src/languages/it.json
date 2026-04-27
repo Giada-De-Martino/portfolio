@@ -1,60 +1,102 @@
 {
-    "it": {
-        "nav": {
-            "about": "Chi Sono",
-            "parcours": "Percorso",
-            "projects": "Progetti",
-            "contact": "Contatti",
-            "resume": "Curriculum"
+  "it": {
+    "nav": {
+      "about": "Chi Sono",
+      "parcours": "Percorso",
+      "projects": "Progetti",
+      "contact": "Contatti",
+      "resume": "Curriculum"
+    },
+    "hero": {
+      "heroTitle": "Benvenuti nel mio Portfolio",
+      "heroSubtitle": "Ingegnera DevOps",
+      "heroName": "Ciao, sono Giada Flora De Martino !"
+    },
+    "about": {
+      "aboutTitle": "Chi Sono",
+      "aboutText": "Ingegnera DevOps appassionata di infrastrutture cloud, automazione e CI/CD. Adoro risolvere problemi complessi e ottimizzare i processi di sviluppo software."
+    },
+    "skills": {
+      "skillsTitle": "Competenze Tecniche",
+      "devopsInfra": "DevOps & Infrastruttura",
+      "devopsInfraList": [
+        "Docker & Kubernetes",
+        "AWS & Architettura Cloud",
+        "Pipeline CI/CD",
+        "Terraform & Infrastructure as Code",
+        "Prometheus & Grafana"
+      ],
+      "devTools": "Sviluppo & Strumenti",
+      "devToolsList": [
+        "Linux & Scripting Bash",
+        "Python & Automazione",
+        "Git & Controllo Versione",
+        "Jenkins & GitLab CI",
+        "Rete & Sicurezza"
+      ],
+      "programming": "Linguaggi di Programmazione",
+      "programmingList": [
+        "Java",
+        "Rust",
+        "Python",
+        "C",
+        "C#",
+        "C++",
+        "JavaScript",
+        "HTML / CSS",
+        "PHP",
+        "Kotlin",
+        "Scala"
+      ],
+      "softSkills": "Competenze Trasversali",
+      "softSkillsList": [
+        "Risoluzione Problemi & Pensiero Critico",
+        "Collaborazione di Squadra & Comunicazione",
+        "Adattabilità & Apprendimento Continuo",
+        "Basi di Gestione Progetto"
+      ]
+    },
+    "parcours": {
+      "parcoursTitle": "Percorso Professionale",
+      "parcours2023": "2023 - Presente",
+      "parcours2023Title": "Ingegnera DevOps",
+      "parcours2023Place": "Polytech Montpellier",
+      "parcours2023Description": "Specializzata in pratiche DevOps, tecnologie cloud e IA.",
+      "parcours2022": "2022 - 2023",
+      "parcours2022Title": "DUETI",
+      "parcours2022Place": "UQAC (Université du Québec à Chicoutimi)",
+      "parcours2022Description": "Anno di scambio in Canada, specializzata in sviluppo mobile e web.",
+      "parcours2019": "2019 - 2022",
+      "parcours2019Title": "DUT Informatica",
+      "parcours2019Place": "Università di Montpellier",
+      "parcours2019Description": "Specializzata in Sviluppo Software.",
+      "parcours2016": "2016 - 2019",
+      "parcours2016Title": "BAC",
+      "parcours2016Place": "Lycée Jules Guesde, Montpellier",
+      "parcours2016Description": "ESABAC, doppio diploma francese-italiano, specializzato in scienze."
+    },
+    "project": {
+      "projectsTitle": "I Miei Progetti",
+      "projectsList": [
+        {
+          "name": "Piattaforma di Automazione CI/CD",
+          "description": "Sistema di deployment automatizzato utilizzando GitHub Actions e Docker."
         },
-        "hero": {
-            "heroTitle": "Benvenuti nel mio Portfolio",
-            "heroSubtitle": "Ingegnera DevOps",
-            "heroName": "Ciao, sono Giada Flora De Martino !"
-        },
-        "about" : {
-            "aboutTitle": "Chi Sono",
-            "aboutText": "Ingegnera DevOps appassionata di infrastrutture cloud, automazione e CI/CD. Adoro risolvere problemi complessi e ottimizzare i processi di sviluppo software."
-        },
-        "skills": {
-            "skillsTitle": "Le Mie Competenze",
-            "skillsList": [
-                "Cloud Infrastructure (AWS, Azure, GCP)",
-                "CI/CD Pipelines (Jenkins, GitLab CI, GitHub Actions)",
-                "Containerization (Docker, Kubernetes)",
-                "Infrastructure as Code (Terraform, Ansible)",
-                "Monitoring & Logging (Prometheus, Grafana, ELK Stack)"
-            ]
-        },
-        "parcours": {
-            "parcoursTitle": "Percorso Professionale",
-            "parcours2024": "2024 - Ingegnera DevOps",
-            "parcours2024Company": "Nome Azienda",
-            "parcours2024Description": "Infrastructure cloud, pipeline CI/CD, gestione Kubernetes.",
-            "parcours2022": "2022 - Master in Informatica",
-            "parcours2022University": "Nome Università",
-            "parcours2022Description": "Specializzata in Cloud Computing e Sistemi Distribuiti.",
-            "parcours2019": "2019 - Laurea Triennale",
-            "parcours2019University": "Nome Università"
-        },
-        "project": {
-            "projectsTitle": "I Miei Progetti",
-            "projectsList": [
-                {
-                    "name": "Piattaforma di Automazione CI/CD",
-                    "description": "Sistema di deployment automatizzato utilizzando GitHub Actions e Docker."
-                },
-                {
-                    "name": "Strumento di Monitoraggio Kubernetes",
-                    "description": "Soluzione di monitoraggio utilizzando Prometheus e Grafana."
-                }
-            ]
-        },
-        "contact": {
-            "contactTitle": "Contattatemi"
-        },
-        "footer": {
-            "footerText": "© 2026 De Martino Giada Flora. Tutti i diritti riservati."
+        {
+          "name": "Strumento di Monitoraggio Kubernetes",
+          "description": "Soluzione di monitoraggio utilizzando Prometheus e Grafana."
         }
+      ]
+    },
+    "contact": {
+      "contactTitle": "Contattatemi",
+      "namePlaceholder": "Il Tuo Nome",
+      "emailPlaceholder": "La Tua Email",
+      "messagePlaceholder": "Il Tuo Messaggio",
+      "sendButton": "Invia"
+    },
+    "footer": {
+      "footerText": "© 2026 De Martino Giada Flora. Tutti i diritti riservati."
     }
+  }
 }
